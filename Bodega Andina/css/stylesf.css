@@ -1,0 +1,322 @@
+@import url('normalize.css');
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
+
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+
+* {
+	box-sizing: border-box;
+  color: inherit;
+}
+
+body {
+  font-family: 'Rubik', sans-serif; /*se ponen dos porque si se rompe la roboto hay una segunda opcion*/
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* básicos */
+
+.container {
+	width: 100%;
+}
+
+.toggle-nav {
+	display: block;
+	font-size: 2.5em;
+	background-color: transparent;
+	width: 50px;
+	padding-top: 5px;
+	text-align: center;
+	margin: 0 auto;
+	color: rgb(253, 254, 254);
+	border-radius: 3px;
+}
+
+
+
+.main-header {
+	background-image: url(../images/banner-index.jpg);
+	background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+	min-height: 500px;
+
+}
+
+.logoEnCel {
+	text-align: center;
+}
+
+.logo {
+	display: none;
+}
+
+.main-nav {
+	display: none;
+}
+
+.main-nav a, .main-footer a {
+	background-color: rgb(170, 183, 184);
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+	border-bottom: solid 2px #fff;
+	display: block;
+}
+/*Linea divisoria*/
+
+.linea-degrade {
+	height: 8px;
+	/* background-color: #c08329;
+	background-image: linear-gradient(to right, #c08329, #C67A03); */
+	background-color: #FFBA51; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #FFBA51 , #905802); /* Standard syntax (must be last) */
+}
+.queHacemos {
+	text-align: center;
+}
+.queHacemos p {
+	font-size: 1.5em;
+	padding: 4%;
+}
+
+
+.historia{
+	background-color: white;
+	padding: 2%;
+}
+
+.historia h2 {
+	color: black;
+	font-size: 1.8em;
+	padding: 2%;
+	font-weight: 100;
+	color: #c08329;
+	border-bottom: 1.5px solid #303c42;
+	display: inline-block;
+}
+
+
+.historia p {
+	color: #303c42;
+	padding: 2%;
+	font-size: 1.3em;
+}
+
+.animate {
+	/* background-color: #905802;
+  background-image: linear-gradient(to right, #FFBA51 , #905802); */
+ 	/*background: blue;  linear-gradient(to right, rgba(255,175,75,1) 24%, rgba(210,132,35,1) 69%, rgba(192,114,19,1) 87%, rgba(179,102,7,1) 100%); */
+	background: -webkit-linear-gradient(#FFBA51, #905802); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FFBA51, #905802); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FFBA51, #905802); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FFBA51, #905802); /* Standard syntax */
+	min-height: 1000px;
+	margin-top: 18px;
+}
+
+.animate h2 {
+	color: white;
+	font-size: 1.8em;
+	margin: 5%;
+	padding-top: 5%;
+}
+
+.compra-flex {
+	padding-bottom: 3%;
+}
+
+.compra {
+	min-height: 250px;
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	padding: 3%;
+	margin: 5%;
+}
+
+.iconoAnimateF {
+	max-width: 15%;
+	/* border: 1px red solid; */
+}
+
+.compra a {
+	color: #905802;
+}
+
+/* footer */
+
+.main-footer {
+	padding: 3%;
+}
+
+.main-footer a {
+	display: inline;
+	background: none;
+}
+
+.footRedes img{
+	max-width: 30px;
+}
+
+/* $$$$$$$$$$$$$$$$$$  MEDIA QUERI PARA TABLET  $$$$$$$$$$$$$$$ */
+
+@media (min-width: 600px) {
+	body {
+		font-size: 1em;
+	}
+
+	.logoEnCel {
+		text-align: center;
+		max-width: 500px;
+		margin: auto;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.main-nav {
+		display: none;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+}
+
+/* $$$$$$$$$$$$$$$$$$  MEDIA QUERI PARA DESKTOP  $$$$$$$$$$$$$$$ */
+
+
+@media (min-width: 900px) {
+
+	/* barra de navegacion  */
+
+	.toggle-nav {
+		display: none;
+	}
+
+	.main-nav {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+	}
+
+	.cualquiernombre{
+		/* margin-top: 3%; */
+		margin-right: 2%;
+
+	}
+
+
+	.main-nav a {
+		background-color: transparent;
+		color: #303c42;
+		border: none;
+		margin: 2%;
+	}
+
+	.main-nav div {
+		margin: 5px;
+	}
+
+	/* logo */
+
+	.logoEnCel {
+		display: none;
+	}
+
+	.logo {
+		display: block;
+		max-width: 40%;
+		margin: auto;
+	}
+
+	/* SECCION historia  */
+
+	.historia {
+		display: flex;
+	}
+
+	.tituloHistoria {
+		width: 26%;
+		padding-left: : 2%;
+		padding-right: 2%;
+	}
+
+	.tituloHistoria h2 {
+		font-size: 3.6em;
+	}
+
+	.textoHistoria {
+		width: 66%;
+		padding: 4%;
+	}
+
+	/* Animate  */
+	.animate {
+		margin-top: 18px;
+		min-height: 400px;
+	}
+
+	.compra-flex {
+		display: flex;
+		padding-left: 3%;
+		padding-right: 3%;
+		padding-bottom: 3%;
+	}
+
+	.animate h2 {
+		font-size: 2em;
+		margin: 2%;
+		padding-left: 3%;
+
+	}
+
+	.compra {
+		width: 30%;
+		min-height: 250px;
+		border-radius: 8px;
+		padding: 1%;
+		margin: 2%;
+	}
+
+	.iconoAnimateF {
+		width: 40px;
+	}
+
+	.main-footer {
+		display: flex;
+		width: 100%;
+	}
+
+	.footSections {
+		width: 30%;
+		padding: 5%;
+		margin: auto;
+		min-height: 400px;
+	}
+
+	.footRedes img {
+		max-width: 15%;
+		padding: 2%;
+	}
+
+
+}

@@ -1,0 +1,282 @@
+/* @import url('normalize.css');
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
+
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+
+*{
+box-sizing: border-box;
+}
+
+
+img{
+
+  width: 100%;
+}
+
+body{
+
+  font-family: "rubik" , sans-serif;
+
+}
+
+ul, ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+  display: inline-block;
+} */
+
+.container{
+  margin: auto;
+
+
+}
+
+.bg-imagen{
+  display: none;
+}
+
+.toggle-nav-regi {
+  display: block;
+	font-size: 2.5em;
+	background-color: transparent;
+	width: 50px;
+	padding-top: 5px;
+	text-align: center;
+	margin: 0 15px 15px auto;
+	color: rgb(39, 55, 70);
+	border-radius: 3px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.nav-register a{
+  font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+	border-bottom: solid 2px #fff;
+	display: block;
+}
+
+.nav-register{
+  display: none;
+  background-color: #303c42;
+}
+
+.logo-register{
+
+  width: 60%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.background{
+  width: 60%;
+
+
+}
+
+.titulo-registro{
+  text-align: center;
+
+}
+
+.bg-login{
+ padding: 0;
+}
+
+.form{
+  margin: auto;
+  width: 100%;
+  background-color: #fff;
+  /*border-radius: 5%;
+  box-shadow: 0 0 5px #303c42;*/
+  padding: 10% 5% 10% 5%;
+  color: #303c42;
+  text-align: center;
+}
+
+  input{
+  width: 70%;
+  border: none;
+  border-bottom: solid 1px #303c42;
+}
+
+.boton-ini, .boton-regi{
+  margin: auto;
+  width: 60%;
+  margin-top: 5%;
+  padding: 10px 3px 10px 3px;
+  background-color: #FFBA51;
+  background-image: linear-gradient(to right, #FFBA51 , #905802);
+  border-radius: 6px 6px 6px 6px;
+  color: white;
+  border: solid 0;
+
+}
+.label-user{
+  position: relative;
+}
+.label-pass{
+  position: relative;
+}
+.label{
+  position: absolute;
+  color: #303c42;
+  left: 15%;
+  font-size: 20px;
+}
+
+.showError {
+  color: rgb(255, 0, 0);
+  border-bottom: none;
+  text-align: left;
+  padding-left: 15%;
+  margin-bottom: 30px;
+  margin-top: 8px;
+
+}
+
+.form-check-input{
+  position: absolute;
+  width:41%;
+  left: 0px;
+}
+
+.form-check-label{
+  margin-right: 22%;
+}
+
+
+@media (min-width:600px){
+
+.bg-imagen{
+    display: none;
+  }
+
+.logo-register{
+  width: 40%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+
+.titulo-registro{
+  font-size: 2em;
+}
+
+.login{
+width: 70%;
+
+
+}
+
+.boton-ini, .boton-regi{
+  padding: 10px 10px;
+
+}
+
+.form-check-label{
+  margin-right: 40%;
+}
+
+.form-check-input{
+  width:40%;
+}
+
+
+
+@media (min-width:900px){
+
+.toggle-nav-regi{
+  display: none;
+}
+
+.nav-register{
+  font-size: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-right: 10px;
+  background-color: transparent;
+}
+.nav-register a {
+
+  background-color: transparent;
+  color: #303c42;
+  border: none;
+  margin: 2%;
+}
+
+.nav-register div {
+  margin: 5px;
+}
+
+.logo-register{
+  position: absolute;
+  left: 15px;
+  top: -60px;
+  margin-left: 3%;
+  margin:0;
+  width: 16%;
+}
+.nav-register{
+  margin-top: 3%;
+  margin-right: 2%;
+}
+.header-register{
+  margin-bottom: 80px;
+
+}
+.bg-login{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.img-iz{
+  background-image: url("../images/banner-login.jpg");
+  width: 50%;
+  background-size: cover;
+}
+
+.boton-ini, .boton-regi{
+
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+}
+.form {
+  background-color: white;
+  color: #303c42;
+  width: 50%;
+}
+
+
+input{
+  color: #303c42;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.label{
+  color: white;
+}
+.form-check-label{
+  margin-right: 35%;
+}
+
+.form-check-input{
+  width:40%;
+  margin-left: 42%;
+}

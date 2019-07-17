@@ -1,0 +1,166 @@
+/* @import url('normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
+
+* {
+	box-sizing: border-box;
+  color: inherit;
+}
+
+body {
+	margin: auto;
+  font-family: 'Rubik', sans-serif;
+}
+
+img{
+  width: 100%;
+} */
+
+.container-perguntas{
+  width: 100%;
+  margin: auto;
+}
+
+.ion-navicon-round{
+	color: #303c42;
+}
+
+.logo-preguntas{
+	margin: auto;
+  width: 55%;
+  padding-top: 5%;
+}
+
+.preguntas-bg{
+  margin: auto;
+  text-align: center;
+	color: white;
+	background-color: #FFBA51;
+  background-image: linear-gradient(to right, #FFBA51 , #905802);
+  padding: 2%;
+}
+
+#h2-preguntas{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  text-align: center;
+  color: #c08329;
+  font-size: 1.6em;
+}
+
+#campo{
+  width: 70%;
+}
+
+#boton{
+  padding: 2%;
+  background-color: #303c42;
+  border: solid 0;
+  color: #fff;
+}
+
+.preguntas-pedido, .preguntas-cambios, .preguntas-pagos, .preguntas-devolucion, .preguntas-inconvenientes, .preguntas-cuenta{
+  margin: auto;
+  margin-bottom: 5%;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 3%;
+  box-shadow: 0 0 5px #303c42;
+  padding: 2% 8% 2% 8%;
+  color: #303c42;
+}
+
+
+@media (min-width: 600px) {
+  .logo-preguntas{
+    width: 40%;
+    margin: auto;
+    padding-top: 5%;
+  }
+
+  #h2-preguntas {
+    font-size: 2.5em;
+  }
+
+  .preguntas-bg h1{
+    font-size: 40px;
+  }
+
+  #campo{
+    width: 70%;
+  }
+
+  #boton{
+    padding: 2%;
+    background-color: #303c42;
+    border: solid 0;
+    color: #fff;
+  }
+
+  .preguntas-pedido, .preguntas-cambios, .preguntas-pagos, .preguntas-devolucion, .preguntas-inconvenientes, .preguntas-cuenta{
+    border-radius: 1%;
+  }
+
+@media (min-width: 900px){
+  .preguntas{
+    position: relative;
+  }
+
+  .logo-preguntas{
+    width: 16%;
+    position: absolute;
+    left: 15px;
+	  top: -55px;
+    margin-left: 3%;
+  }
+
+  .nav-preguntas{
+    margin-top: 3%;
+  }
+
+	.linea-degrade-preguntas{
+		margin: auto;
+		margin-top: 5%;
+		height: 1px;
+		/* background-color: #c08329;
+		background-image: linear-gradient(to right, #c08329, #C67A03); */
+		background-color: #FFBA51; /* For browsers that do not support gradients */
+	  background-image: linear-gradient(to right, #FFBA51 , #905802); /* Standard syntax (must be last) */
+	}
+
+  #campo{
+    width: 50%;
+  }
+
+  #boton{
+    padding: 1%;
+    background-color: #303c42;
+    border: solid 0;
+    color: #fff;
+  }
+
+  .preguntas-bg{
+    margin-top: 5%;
+  }
+
+  #h2-preguntas {
+    padding: 1%;
+  }
+
+  .preguntas-body{
+		margin-left: 5%;
+		margin-right: 5%;
+    display: flex;
+  }
+
+	.preguntas-body2{
+		margin-left: 5%;
+		margin-right: 5%;
+    display: flex;
+  }
+
+  .preguntas-pedido, .preguntas-cambios, .preguntas-pagos, .preguntas-devolucion, .preguntas-inconvenientes, .preguntas-cuenta{
+    margin: 2%;
+    padding: 2%;
+  }
+
+}
