@@ -1,0 +1,44 @@
+/*-- responsive --*/
+
+h1{
+  text-align: center;
+}
+
+/* .admProd{
+  margin: 0 auto;
+  width: 70%;
+  background-color: #f1eeee;
+} */
+.contVinos1{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.vinosTitulo{
+  text-align: center;
+}
+
+.botonCrear{
+  text-align: center;
+}
+
+.contVinos{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.vinosTodos{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.vinosTodos img{
+  width: 30%;
+}
+
+.cajaVino{
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

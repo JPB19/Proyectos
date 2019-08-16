@@ -1,0 +1,94 @@
+/*-- responsive --*/
+.perfilContainer{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bg{
+  opacity: 0.5;
+}
+
+.avatar{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.avatar img{
+  width: ;
+  border-radius: 100%;
+}
+
+.line1, .line2{
+}
+
+.servicios a img{
+  width: 80%;
+}
+
+.servicios{
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  background-color: #fff;
+  box-shadow: 6px 18px 16px rgba(23, 32, 42, 0.4);
+  padding: 5%;
+}
+
+/*-- tablet --*/
+@media (min-width: 500px) {
+  .servicios{
+    margin: 2%;
+    background-color: #fff;
+    box-shadow: 6px 18px 16px rgba(23, 32, 42, 0.4);
+    width: 40%;
+    padding: 5%;
+  }
+  .line1, .line2{
+    display: flex;
+    justify-content:center
+  }
+}
+
+@media (min-width: 600px) {
+  .servicios{
+    margin: 2%;
+    background-color: #fff;
+    box-shadow: 6px 18px 16px rgba(23, 32, 42, 0.4);
+    width: 30%;
+    padding: 5%;
+  }
+  .line1, .line2{
+    display: flex;
+    justify-content:center
+  }
+}
+
+/*-- desktop --*/
+@media (min-width: 900px) {
+  .perfilContainer{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .perfilContainer h1{
+    text-align: center;
+  }
+
+  .perfilContainer img{
+    width: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .servicios{
+    width: 20%;
+    padding: 2%;
+  }
+
+  .avatar img{
+    width: 80%;
+  }
+}

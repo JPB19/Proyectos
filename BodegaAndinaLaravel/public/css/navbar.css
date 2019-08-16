@@ -1,0 +1,107 @@
+@import url('generales.css');
+
+/*--- navbar responsive ---*/
+.toggle-nav {
+	display: block;
+	background-color: transparent;
+	padding-top: 5%;
+	text-align: center;
+	color: #303c42;
+	border-radius: 5%;
+  font-size: 35px;
+}
+
+.nav-perfil img{
+  width: 5%;
+  margin: 0 auto;
+}
+
+.nav-perfil li{
+  width: 100%;
+}
+
+.logo{
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.nav{
+  text-align: center;
+  display: block;
+  margin-bottom: 10%;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.nav li{
+  width: 100%;
+}
+
+.nav a{
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  padding: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #303c42;
+  color: #fff;
+  text-align: center;
+  border-bottom: solid 2px #fff;
+}
+
+/*--- navbar desktop ---*/
+@media (min-width: 600px){
+  .logo{
+    width: 50%;
+}
+
+@media (min-width: 900px){
+  .nav-perfil img{
+    width: 10%;
+    margin-left: 10%;
+  }
+
+  .nav-perfil{
+    float: right;
+    margin-top: 0;
+  }
+
+  .toggle-nav {
+  	display: none;
+  }
+
+  .logo{
+    width: 16%;
+    position: absolute;
+    left: 3%;
+    top: 4%;
+  }
+
+  .nav{
+    margin-top: 2%;
+    margin-right: 2%;
+  }
+
+  .nav ul{
+     display: flex;
+     justify-content: flex-end;
+  }
+
+  .nav a{
+    background-color: inherit;
+    color: #303c42;
+    border-bottom: none;
+  }
+
+  .nav li{
+    width: auto;
+    padding-left: 5%;
+  }
+}
+/*--- cierra navbar ---*/

@@ -1,0 +1,22 @@
+@import url('generales.css');
+/*-- desktop --*/
+
+body{
+  background-color: #fff;
+}
+
+.iniciaSesion{
+  text-align: center;
+  padding: 2%;
+  font-size: 3em;
+}
+
+.btn{
+  margin-bottom: 5%;
+  background-color: #303c42;
+  border: none;
+}
+
+.btn a{
+  background-color: #fff;
+}

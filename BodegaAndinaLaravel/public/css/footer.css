@@ -1,0 +1,110 @@
+@import url('generales.css');
+/*-- responsive --*/
+footer{
+  background-color: #fff;
+  margin-top: 20%;
+}
+
+h2{
+  font-size: 1.0em;
+}
+
+.footBorder{
+  padding: 2%;
+  border-top: solid 1px #303c42;
+  border-bottom: solid 1px #303c42;
+  text-align: center;
+}
+
+.footBorder img{
+  width: 40%;
+}
+
+.footRedes{
+  border-bottom: solid 1px #303c42;
+  padding-bottom: 5%;
+  padding-left: 10%;
+}
+
+.footRedes ul, li{
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footRedes img{
+  width: 40%;
+}
+
+.footContact{
+  border-bottom: solid 1px #303c42;
+  padding-left: 10%;
+}
+
+.footSales{
+  padding-left: 10%;
+}
+
+@media (min-width: 600px){
+  .footBorder img{
+    width: 30%;
+  }
+
+  h2{
+    font-size: 1.3em;
+  }
+
+  .footRedes img{
+    width: 30%;
+  }
+}
+
+@media (min-width: 900px){
+  footer{
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+
+  .footBorder img{
+    width: 15%;
+  }
+
+  h2{
+    font-size: 1.3em;
+  }
+
+  .footRedes{
+    width: 30%;
+    height: 30%;
+    padding-left: 10%;
+    border-bottom: none;
+    border-right: solid 1px #303c42;
+    float: left;
+  }
+
+  a{
+    padding: 0;
+  }
+
+  .footRedes img{
+    width: 25%;
+  }
+
+  .footContact{
+    width: 30%;
+    height: 30%;
+    margin-left: 5%;
+    padding-left: 1%;
+    border-bottom: none;
+    border-right: solid 1px #303c42;
+    float: left;
+  }
+
+  .footSales{
+    width: 30%;
+
+    margin-left: 5%;
+    padding-left: 1%;
+    float: left;
+  }
+}
